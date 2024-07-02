@@ -1,0 +1,140 @@
+.main-body{
+    background-image: url("resource/bg1.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background1{
+    background-image: url("resource/e.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.logo{
+    background-image: url("resource/shop-logo.svg");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+*{
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+.title1{
+    font-family: "honey";
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.background{
+    background-image: url("resource/side.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title2{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.shop-logo{
+    background-image: url("resource/shop-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cart-icon{
+    height: 30px;
+    background-image: url("resource/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.poster-img-1{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.bg-color{
+    background-image: url("resource/bg1.svg");
+}
+
+.item:hover img {
+    transform: scale(1.2);
+}
+
+.pm{
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pm1{
+    background-image: url("resource/payment_method/visa_img.png");
+}
+
+.pm2{
+    background-image: url("resource/payment_method/mastercard_img.png");
+}
+
+.pm3{
+    background-image: url("resource/payment_method/american_express_img.png");
+}
+
+.pm4{
+    background-image: url("resource/payment_method/paypal_img.png");
+}
+
+.emptyCart {
+    height: 400px;
+    background-image: url("resource/emptycart.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.emptyview {
+    height: 400px;
+    background-image: url("resource/watchlistEmptyView.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-img {
+    height: 450px;
+    background-image: url("resource/empty.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.backgroundadmin {
+    background-image: url("resource/cover.jpg");
+   background-size: cover;
+   height: 350px;
+   width: 500px;
+ 
+}
